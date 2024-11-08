@@ -13,3 +13,55 @@
 body{
     font-family: "Libre Franklin", sans-serif;
 }
+
+header{
+    background-color: #8b3030;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    padding: 63px 129px 63px 129px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 90% 100%, 0 100%);
+}
+
+header img{
+
+    /* margin-top: 54px;
+    margin-left: 108px;
+    margin-bottom: 58px; */
+    width: 163px;
+    height: 163px;
+    object-fit: contain;
+    margin-bottom: 29px
+
+
+}
+
+.headerText{
+
+    font-size: 25px;
+    margin-bottom: 49px;
+    font-weight:300;
+    color: white;
+}
+
+.headerText2{
+    font-size: 25px;
+
+    font-weight:300;
+    color: white;
+    margin-bottom: 90px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    /* margin-left: 6rem; */
+}
+
+h2{
+    font-size: 52px;
+    font-weight: 800;
+    /* margin-left: 6rem; */
+    margin-bottom: 49px;
+
+
+}
