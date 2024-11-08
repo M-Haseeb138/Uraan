@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 10px; 
+}
+
+header, nav, footer, article, aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+header {
+    flex-grow: 0; 
+    flex-shrink: 0; 
+    margin-top: 8px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+nav {
+    flex-grow: 0; 
+    flex-shrink: 0;
+    flex-basis: auto; 
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+footer {
+    flex-grow: 0; 
+    flex-shrink: 0; 
+    flex-basis: auto; 
+    margin-bottom: 5px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 0;
+    padding: 20px;
+    gap: 10px;
+}
+
+aside {
+    flex-grow: 1; 
+    flex-shrink: 1;
+    flex-basis: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+   
+    flex-grow: 2.5; 
+    flex-shrink: 1; 
+    flex-basis:300px; 
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+/* notes : 
+- flex-grow: 0 means the element will not grow
+- flex-shrink: 0 means the element will not shrink
+flex-basis:  auto means the element will take up the space it needs.it handle the width of flex item and work
+like max-width property .
+flex property short cut:
+flex: grow shrink  basis;
+
+
+
+
+
+*/
