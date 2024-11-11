@@ -229,7 +229,7 @@ padding-left: 24px;
     height: 16px;
     position: relative;
     cursor: pointer;
-    appearance: none; /* Removes default checkbox styling */
+    appearance: none;
 }
 
 .c3::before {
@@ -253,5 +253,5 @@ padding-left: 24px;
     transform: translate(-50%, -50%);
     font-size: 12px;
     color: black; 
-    
+
 }
