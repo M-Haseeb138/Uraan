@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+header {
+    background-color: #8b3030;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    padding: 63px 129px 63px 129px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 90% 100%, 0 100%);
+}
+
+header img {
+
+    /* margin-top: 54px;
+    margin-left: 108px;
+    margin-bottom: 58px; */
+    width: 163px;
+    height: 163px;
+    object-fit: contain;
+    margin-bottom: 29px
+}
+
+.headerText {
+
+    font-size: 25px;
+    margin-bottom: 49px;
+    font-weight: 300;
+    color: white;
+}
+
+.headerText2 {
+    font-size: 25px;
+
+    font-weight: 300;
+    color: white;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    /* margin-left: 6rem; */
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 800;
+    /* margin-left: 6rem; */
+    margin-bottom: 49px;
+
+
+}
+
+/* ////////// */
+
+
+/* .mainfirst {
+    margin: 20px 0;
+} */
+
+
+.mainfirst {
+    display: flex;
+    /* align-items: center; */
+    margin: 20px 0;
+    gap: 12px;
+    margin-bottom: 47px;
+}
+
+
+.triangle {
+    width: 55px;
+    /* Adjust width to match the triangle size */
+    height: 52px;
+    /* Adjust height to match the triangle size */
+    background-color: #8B1D29;
+    /* Color of the triangle */
+    clip-path: polygon(80% 0, 0 100%, 83% 100%);
+    margin-right: 10px;
+    /* Space between triangle and text */
+    margin-top: 13px;
+}
+
+.Best,
+.Club {
+    font-size: 70px;
+
+    font-weight: 900;
+    color: #333;
+}
+
+.secondimage {
+    width: 114px;
+    height: 114px;
+    margin-left: 1rem;
+}
+
+main {
+    padding-left: 119px;
+    padding-top: 119px;
+}
+
+#text1 {
+    color: #9b3036;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+#text2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 43px
+}
+
+/* footer */
+
+
+
+footer {
+    background-color: #8b3030;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    padding: 63px 129px 63px 129px;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 90% 100%, 0 100%);
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.content{
+    padding-bottom: 117px;
+}

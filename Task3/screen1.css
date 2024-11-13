@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* .head{
+    background-color: white;
+
+} */
+
+body{
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.CardSection{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 26px;
+    padding-bottom: 6rem;
+    background-color: #8b3030;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%);
+}
+.Cardleft{
+
+    /* padding-top: 15rem; */
+    /* margin-top: 15rem; */
+    /* max-width: 50%; */
+   margin-top: 15rem;;
+}
+
+.Lcontainer{
+
+    margin-left: 2rem;
+    padding-left: 3rem;
+
+}
+.head ,img{
+    margin-bottom: 2rem;
+    width: 116px;
+    height: 111px;
+    margin-top: 15px;
+    margin-left: 13px;
+    object-fit: contain;
+
+}
+
+.title {
+    font-size: 81px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+}
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.deadline {
+    font-size: 27px;
+    font-weight: 900;
+    color: #000;
+}
+
+.date {
+    font-size: 1.5rem;
+}
+
+.c1{
+    position: absolute;
+    top: 581px;
+    left: 34.4rem;
+
+
+}
+.c2{
+ 
+    position: absolute;
+    left: 514px;
+}
+
+
+.input1{
+    width: 100%;
+    margin-right: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 70px;
+
+
+}
+ .ione{
+    background: transparent;
+    padding: 24px;
+    width: 435px;
+    height: 41px;
+    border: 2px solid white;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.Tone {
+    background: transparent;
+    padding-top: 6px;
+    padding-left: 11px;
+    width: 435px;
+    height: 74px;
+    border: 2px solid white;
+    color: white;
+    resize: none;
+    margin: 10px 0;
+}
+
+.Tone::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.Tone:focus {
+    outline: none;
+    background-color: #333; 
+}
+
+
+input[type="textarea"]{
+    width: 16px;
+    height: 16px;
+
+}
+.ione::placeholder{
+    color: white;
+}
+.ione:focus{
+    outline: none;
+}
+
+.Rheading{
+
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}
+.Rcontent{
+font-size: 12px;
+color: white;
+margin-bottom: 22px;
+}
+.c3[type="checkbox"] {
+    appearance: none;
+
+    background-color: transparent;
+    width: 16px; 
+    height: 16px;
+    border: 1px solid #000; 
+
+}
+
+.label{
+margin-left: 12px;
+font-size: 13px; 
+color: white;
+}
+.c4{
+    width: 16px;
+    height: 16px;
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #efe4e1;
+}
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+
+}
+
+.Rcheckboxes{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.Rinputfield input{
+margin-top: 10px;
+margin-bottom: 8px;
+width: 20px;
+height: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    width: 383px;
+margin-top: 19px;
+background-color: #fffdff;
+height: 49px;
+padding-left: 24px;
+
+
+}
+.btntxt{
+
+    margin-left: 23px;
+}
+
+.Rcheckboxes1{
+
+    display: flex;
+    align-items: center;
+}
+
+
+.c3 {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    appearance: none;
+}
+
+.c3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.c3:checked::after {
+    content: "✔"; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: black; 
+
+}
