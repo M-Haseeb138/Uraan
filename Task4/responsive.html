@@ -4,25 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Task 4</title>
-  <link rel="stylesheet" href="task4.css">
+  <title>Task 4 Responsive</title>
+  <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
-  <header>
-    <div class="headerimage">
-      <img src="./assets/looo.png" alt="" srcset="">
-    </div>
-    <div class="headertext">
-      <p class="headersubtext1">CALL OUR OFFICES NOW !</p>
-      <hr>
-      <div class="phone-number">540.433.6906</div>
 
-      <p class="headersubtext2">Get Your Questions Answered Fast</p>
+  <header>
+    <img class="logo" src="./assets/looo.png" alt="Logo-png">
+    <div class="header-content">
+      <h2 class="header-title">Call Our Office Now!</h2>
+      <hr>
+      <h1 class="h-number">540.433.6906</h1>
+      <p class="h-text">Get Your Questions Answered Fast</p>
     </div>
   </header>
 
   <nav class="navbar">
+    <img class="humburger-menu" src="./assets/responsive_menu_icon.png" alt="humburger-menu">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Biography</a></li>
@@ -32,6 +31,8 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
+
+
 
   <div class="Hero">
     <div class="hero-left">
@@ -49,24 +50,26 @@
         <p class="AnsText">Enter your information and your questions answered quickly
           and discreetly or call us at :540.433.6906</p>
 
-
-        <div class="inputTags">
-          <div class="input">
-            <label for="name" class="label1">NAME:</label>
-            <input type="text">
-          </div>
-          <div class="input">
-            <label for="email" class="label2">EMAIL: </label>
-            <input type="text">
-          </div>
-          <div class="input">
-            <label for="phone" class="label3">PHONE: </label>
-            <input type="text">
-          </div>
-        </div>
         <div class="confidentiallogo">
+          <div class="inputTags">
+            <div class="input">
+              <label for="name" class="label1">NAME:</label>
+              <input type="text">
+            </div>
+            <div class="input">
+              <label for="email" class="label2">EMAIL: </label>
+              <input type="text">
+            </div>
+            <div class="input">
+              <label for="phone" class="label3">PHONE: </label>
+              <input type="text">
+            </div>
+          </div>
+
           <img src="./assets/confidential.png" alt="" srcset="">
         </div>
+
+
         <textarea name="textarea" id="1" rows="5" cols="65"></textarea>
         <div class="formlastelement">
           <div class="privacy-text">100% Privacy Guaranteed</div>
@@ -75,8 +78,9 @@
       </form>
 
     </div>
-  </div>
 
+
+  </div>
 
   <div class="feature-section">
     <div class="feature-box1">
@@ -105,16 +109,17 @@
 
         <div class="feature-box2alltext">
           <div class="featureheading">
-            <h1>LAW <span style="color: #671f23;">BLOG</span></h1>
+            <h1 class="box2title">LAW <span style="color: #671f23;">BLOG</span></h1>
           </div>
-          <span>Learn more about</span> <span>Virginia Traffic Laws.</span>
+          <span class="feature-box2alltext1">Learn more about</span> <span class="feature-box2alltext2">Virginia Traffic
+            Laws.</span>
           <div class="button-div2">
             <button>Click Here ►</button>
           </div>
         </div>
 
         <div class="imagbox2">
-          <img src="./assets/pic1.gif" alt="Keffer Law Firm Logo">
+          <img class="imag1" src="./assets/pic1.gif" alt="Keffer Law Firm Logo">
         </div>
       </div>
 
@@ -125,16 +130,19 @@
 
         <div class="feature-box2alltext">
           <div class="featureheading">
-            <h1> CASE <span style="color: #671f23;">RESULTS</span></h1>
+            <h1 class="box2tilte"> CASE <span style="color: #671f23;">RESULTS</span></h1>
           </div>
-          <span>see how we help our clients</span> <span>Read our latest case results.</span>
+          <div class="box2subtitle">
+            <span class="span1">see how we help our clients</span> <span class="span2">Read our latest case
+              results.</span>
+          </div>
           <div class="button-div3">
             <button>Click Here ►</button>
           </div>
         </div>
 
         <div class="imagbox2">
-          <img src="./assets/pic1.gif" alt="Keffer Law Firm Logo">
+          <img class="imag2" src="./assets/order_icon.gif" alt="Keffer Law Firm Logo">
         </div>
       </div>
 
@@ -155,24 +163,19 @@
       <div class="feature-box3-text">
 
         <h2> CERTIFICATES & </h2>
-        <h2><span style="color: #671f23;">CREDENTIALS</span> </h2 <p>
-        Keefer Law Firm has protected the rights of
-        virganians for over 30 years.
+        <h2><span style="color: #671f23;">CREDENTIALS</span> </h2>
+        <p> Keefer Law Firm has protected the rights of
+          virganians for over 30 years.
         </p>
 
         <div class="button-div4">
           <button>Click Here ►</button>
         </div>
       </div>
-
-
-
     </div>
 
   </div>
-  <img src="./assets/hr_shadow.png" alt="" srcset="">
-  <!--       ///////////////////////// -->
-
+  <img class="midimage" src="./assets/hr_shadow.png" alt="" srcset="">
   <footer>
 
 
@@ -221,14 +224,15 @@
 
 
     <div class="content-area">
-      <h1><PAGE>&lt;H1&gt;PAGE TITLE HERE</h1>
+      <h1>
+        <PAGE>&lt;H1&gt;PAGE TITLE HERE
+      </h1>
       <div class="content-text">
         <p>Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut
           aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in anim id est laborum.</p>
-
-        <p>Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          occaecat cupidatat non proident, sunt in anim id est laborum.
+          Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut
           aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
           occaecat cupidatat non proident, sunt in anim id est laborum.</p>
@@ -236,22 +240,26 @@
     </div>
 
     <aside class="right-sidebar">
-      <div class="right-section">
-        <h3>CLIENT<br> <span>TESTIMONIALS</span></h3>
+      <div class="testdownloadcombo">
+      <div class="right-section" id="TESTIMONIALS">
+        <h3 >CLIENT<br> <span>TESTIMONIALS</span></h3>
         <p>Read what others say<br> about Keefer Law Firm.</p>
         <div class="right-sectionbtn">
           <button>Click Here ►</button>
         </div>
       </div>
 
-      <div class="right-section">
+      <div class="right-section download-section" id="DOWNLOAD">
         <h3>DOWNLOAD <span>FREE REPORTS</span></h3>
         <p>Discover the truth about Virginia Law.</p>
         <div class="right-sectionbtn">
           <button>Click Here ►</button>
         </div>
       </div>
-      <div class="right-section">
+    </div>
+
+    <div class="contactpicscombiner">
+      <div class="right-section"  id=" CONTACT">
         <h3>CONTACT <span>OUR OFFICES</span></h3>
         <p>Get your questions<br> answered right now.</p>
         <div class="right-sectionbtn">
@@ -259,31 +267,33 @@
         </div>
       </div>
 
-    
-        <div class="right-section-images">
-       <img class="asiderightimg1"  src="./assets/qqq.gif" alt="" srcset="">
-       <img class="asiderightimg2" src="./assets/national_college_large.gif" alt="" srcset="">
+
+      <div class="right-section-images" id=" PHOTO">
+        <img class="asiderightimg1" src="./assets/qqq.gif" alt="" srcset="">
+        <img class="asiderightimg2" src="./assets/national_college_small.gif" alt="">
       </div>
+    </div>
 
       <div class="folowus">
         <div class="followtext">
           <span class="followtext1">FOLLOW </span><span class="followtext2">US</span>
         </div>
-        <img class="shadowimg" src="./assets/lf_bt_hr_shadow.png" alt="" srcset="">
+        <img class="shadowimg" src="./assets/lf_bt_hr_shadow.png">
         <div class="icons">
-          <img src="./assets/fb_icon.gif" alt="">
+          <img src="assets/fb_icon.gif">
           <img src="./assets/google_icon.gif" alt="">
           <img src="./assets/twitter_icon.gif" alt="" srcset="">
           <img src="./assets/linked_icon.gif" alt="">
         </div>
       </div>
-      
-      
+
+
     </aside>
 
   </footer>
 
-
 </body>
+
+
 
 </html>
