@@ -1,0 +1,84 @@
+.task1 {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    margin-bottom: 3rem;
+    transform: translate(-50%, -40%);
+    padding: 1rem 3rem 1rem 1rem;
+    /* background-color: aliceblue; */
+}
+
+.task2 {
+    position: absolute;
+    top: 41%;
+    left: 20%;
+
+    transform: translate(-50%, -40%);
+    /* background-color: antiquewhite; */
+}
+
+.task3 {
+    position: absolute;
+    top: 65%;
+    left: 14%;
+
+    transform: translate(-32%, -40%);
+    padding: 1rem 3rem 1rem 1rem;
+    /* background-color: rgb(137, 181, 181); */
+}
+
+.task4 {
+    position: absolute;
+    top: 3%;
+    left: 63%;
+    transform: translate(-32%, -40%);
+    padding: 7rem 3rem 1rem 1rem;
+}
+#nametransformer{
+    margin-left: 72px;
+}
+#lowercasename{
+    margin-bottom: 22px;
+}
+.task5 {
+    position: absolute;
+    top: 37%;
+    left: 63%;
+    transform: translate(-32%, -40%);
+    padding: 7rem 3rem 1rem 1rem;
+}
+#weight{
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+#height{
+    margin-bottom: 10px;
+}
+
+.task6 {
+    position: absolute;
+    top: 68%;
+    left: 63%;
+    transform: translate(-32%, -22%);
+    padding: 7rem 3rem 1rem 1rem;
+}
+.task7 {
+    position: absolute;
+    top: 84%;
+    left: 15%;
+    transform: translate(-32%, -22%);
+    padding: 7rem 3rem 1rem 1rem;
+}
+
+#num1{
+    margin-bottom: 10px;
+}
+
+#num2{
+    margin-bottom: 10px;
+}
+
+#Resultlabel{
+    margin-left: 5px;
+}

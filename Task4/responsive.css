@@ -1113,6 +1113,36 @@ footer::after {
     justify-content: space-between;
     margin-left: 0.6rem;
   }
+
+  .practice-area h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .h3first{
+    padding-right: 101px;
+
+  }
+
+  .h3last{
+    padding-right: 37px;
+  }
+/* 
+  .feature-box3h2{
+    text-align: start;
+    margin-left: 22rem;
+  } */
+}
+@media (max-width:1200px){
+  
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 25rem;
+
+  }
+
 }
 
 
@@ -1165,6 +1195,13 @@ footer::after {
     margin-left: 0;
   }
 
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 19rem;
+  }
+
+
 }
 
 @media (max-width: 900px) {
@@ -1201,7 +1238,7 @@ footer::after {
 }
 .button-div {
   width: 10rem;
-  margin-left: 3.3rem;
+  margin-left: 0.3rem;
 }
 
 }
@@ -1304,6 +1341,12 @@ footer::after {
 
   }
 
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 13rem;
+}
+
 }
 
   @media(max-width: 690px) {
@@ -1334,11 +1377,23 @@ footer::after {
   hr {
     width: 67%;
   }
+
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 10rem;
+}
 }
 
 @media (max-width:602px) {
   .imagbox2 img {
     width: 10rem;
+}
+
+.button-div4 {
+  margin-left: 8rem;
+  padding-left: 2.9rem;
+  margin-left: 10rem;
 }
 }
 
@@ -1380,6 +1435,11 @@ footer::after {
   .h-text {
     font-size: 1rem;
   }
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 9rem;
+}
 }
 
 @media (max-width: 576px) {
@@ -1403,6 +1463,11 @@ footer::after {
     width: 24px;
     height: 24px;
   }
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 6rem;
+}
 }
 
 @media (max-width:540px) {
@@ -1411,6 +1476,12 @@ footer::after {
     margin-left: 60px;
    
   }
+
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 6rem;
+}
   
 }
 @media (max-width: 480px) {
@@ -1448,7 +1519,12 @@ footer::after {
     width: 100%;
   }
 
-  
+  .button-div4 {
+    margin-left: 8rem;
+    padding-left: 2.9rem;
+    margin-left: 4rem;
+  }
+
   
 }
 

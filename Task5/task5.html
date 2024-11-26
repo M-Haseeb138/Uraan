@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task 5 </title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+
+
+<body>
+    <div class="task1">
+        <h1>AGE TO DAY CONVERTOR </h1>
+        <label for="">Enter Your Age in Years:</label>
+        <input id="age" type="number" label="Enter Your Age in Years">
+        <button onclick="Convertor()">Convert Your Age </button>
+        <p id="result"></p>
+    </div>
+
+    <div class="task2">
+        <h1>Hours To Second Convertor</h1>
+        <label for="">Enter hours :</label>
+        <input id="hours" type="number" label="Enter the hours ">
+        <button onclick="HourtoSecondConvertor()">Convert Your Hours to Second </button>
+        <p id="hoursResult"></p>
+
+    </div>
+
+    <div class="task3">
+        <h1>Find Next Number</h1>
+        <label for="array">Enter Array (Comma,seperated ) </label>
+        <input id="array" type="text" placeholder="e.g :1,2,3,4,5">
+        <br><br>
+        <label for="number">Enter the Target number </label>
+        <input id="number" type="number" placeholder="e.g:3">
+        <button onclick="findNextNumberHandler()">Find Next Number</button>
+        <p id="nextnumberresult"></p>
+    </div>
+
+    <div class="task4">
+        <h1>Name capitalizer</h1>
+        <label for="name">Enter your name : </label>
+        <input id="lowercasename" type="text" placeholder="Enter name lower case"><br>
+        <button id="nametransformer" onclick="TransformName()"> Transfor Name</button>
+        <p id="newname"></p>
+    </div>
+
+    <div class="task5">
+        <h1>BMI</h1>
+        <label for="weight">Enter your weight in kg :</label>
+        <input id="weight" type="number" placeholder="Enter weight in kg" oninput="addUnit('weight','kg')"><br>
+        <label for="height">Enter your height in meters :</label>
+        <input id="height" type="number" placeholder="Enter height in meters" oninput="addUnit('height', 'm')">
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <p id="BmiResult"></p>
+
+
+    </div>
+
+    <div class="task6">
+        <h1>Random Array Generator</h1>
+        <label for="arraySize">Enter the size of the array:</label>
+        <input type="number" id="arraySize" placeholder="Enter size" />
+        <button onclick="generateArray()">Generate Array</button>
+
+        <h3>Output:</h3>
+        <p id="generatedArray"></p>
+        <p id="firstElement"></p>
+        <p id="lastElement"></p>
+    </div>
+
+
+    <div class="task7">
+        <h1>Additon of Numbers</h1>
+        <label for="input1" >Enter the first number:</label>
+        <input id="num1" type="text" placeholder="Enter first number"><br>
+        <label for="input2">Enter the second number:</label>
+        <input id="num2" type="text" placeholder="Enter Second number"><br>
+        <label id="Resultlabel" for="Result">Result</label>
+        <input id="numResult" type="text">
+
+
+    </div>
+
+    <script src="task5.js"></script>
+</body>
+
+</html>
