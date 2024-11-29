@@ -1,0 +1,539 @@
+.hr {
+    background-color: black;
+    padding: 1px;
+    width: 53%;
+    margin-bottom: 0;
+
+}
+
+.navbar {
+    background-color: brown;
+    padding: 0;
+}
+
+.HeaderContent h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #9b181f;
+    ;
+}
+
+.HeaderContent {
+    padding-top: 10px;
+    padding-right: 1rem;
+}
+
+.case-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 5px;
+}
+
+
+
+
+.HeaderContent h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: #232323;
+}
+
+.HeaderContent p {
+    font-size: 1.4vw;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(71, 71, 71, 255);
+}
+
+.content {
+    background-image: url(./images/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+
+}
+
+.HeaderContent-text {
+    color: #123452;
+}
+
+.ques h1 {
+    background-color: #9b181f;
+    ;
+    color: rgba(248, 248, 248, 255);
+    font-size: 1.5rem;
+    padding: 10px;
+    float: left;
+}
+
+.btn1 {
+    border-top: 1px solid rgb(70, 68, 68);
+    display: block;
+    margin: auto;
+    margin-left: 20px;
+    border-radius: 0;
+}
+
+.btn1 button {
+    margin-right: 0.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: none;
+    width: auto;
+    color: #fffffa;
+    font-size: 15px;
+    margin-right: 1rem;
+}
+
+.btn-2 {
+    margin-block: 2vw;
+    border-top: 1px solid rgb(70, 68, 68);
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.btn-2 button {
+    margin-right: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: none;
+    width: auto;
+    color: #fffffa;
+    font-size: 15px;
+}
+
+.btn-2 {
+    margin-block: 2vw;
+    border-top: 1px solid rgb(70, 68, 68);
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.btn-2 button {
+    margin-right: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: none;
+    width: auto;
+    color: #fffffa;
+    font-size: 15px;
+    margin-right: 1.5rem;
+}
+
+button img {
+    margin: 0.3vw 0.2vw;
+    margin-top: 0.4vw;
+}
+
+.btn-footer {
+    margin-block: 2vw;
+    border-top: 2px solid rgb(70, 68, 68);
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.btn-footer button {
+    margin-right: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: none;
+    width: auto;
+    color: #fffffa;
+    font-size: 14px;
+
+}
+
+.block {
+    width: 100%;
+    margin: 1.2vw 0vw !important;
+    background-color: rgba(130, 130, 130, 255);
+    color: white;
+    height: 17vh;
+}
+
+.block h1 {
+    font-size: 18px;
+}
+
+.block>img {
+    width: 2.3%;
+}
+
+.detail {
+    width: 100%;
+    text-align: center;
+}
+
+.btn2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.login {
+    display: flex;
+    margin: 0.5vw;
+}
+
+.login input {
+    font-size: 15px;
+    border: none;
+}
+
+.login label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 6px !important;
+}
+
+.btn2 button img {
+    margin: 0.1vw;
+    margin-top: 0% !important;
+}
+
+.btn2 button {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    width: 70%;
+    text-align: end;
+    align-self: end;
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width:1200) and (min-width: 992px) {
+    .case-img {
+        width: 7rem;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+
+
+
+    .hr {
+        background-color: black;
+        padding: 1px;
+        width: 20rem;
+        margin-bottom: 0;
+
+    }
+
+    .HeaderContent p {
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color:
+            rgba(71, 71, 71, 255);
+    }
+
+    .text-uppercase {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:728px) {
+
+    .HeaderContent h1 {
+        font-size: 2rem;
+    }
+
+    .HeaderContent p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media(max-width:992px) {
+    .btn-footer {
+
+        margin-bottom: 20px;
+    }
+
+    .confi-img {
+        width: 60% !important;
+    }
+
+    .text-sec {
+        width: 93% !important;
+    }
+
+    .para-p {
+        font-size: 20px !important;
+    }
+
+    .block {
+        height: 17vh;
+    }
+
+    .btn-h {
+        display: block;
+        margin: auto;
+
+    }
+
+    .content,
+    .picc,
+    .box3,
+    .box6 {
+        display: block;
+        margin: auto;
+    }
+
+    .box3,
+    .box6 {
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+
+    .picc {
+        padding-inline: 0 !important;
+    }
+
+    .c-h-lg {
+        width: 130% !important;
+        text-align: start;
+        margin-left: -3rem !important;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:768px) {
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        display: block;
+        margin: auto;
+    }
+
+    .detail p {
+        font-size: 15px;
+    }
+
+    .para-p {
+        font-size: 17px !important;
+    }
+
+    .detail button {
+        padding: 2px 1px !important;
+        font-size: 16px !important;
+    }
+
+    .btn-footer button {
+        font-size: 13px !important;
+    }
+
+    .hr {
+        width: 16rem;
+        margin-top: 5px;
+    }
+
+    .HeaderContent p {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin-top: -5px;
+        font-family: sans-serif;
+        color:
+            rgba(71, 71, 71, 255);
+    }
+
+    .HeaderContent h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        color:
+            #232323;
+    }
+
+    .HeaderContent h2 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        font-size: 1rem;
+        font-weight: 900;
+        color: #9b181f;
+    }
+
+    .btn1 {
+        width: 14rem;
+    }
+
+    .btn-2 {
+        width: 14rem;
+    }
+
+    .btn-footer {
+        width: 11rem;
+    }
+
+    .btn-footer button {
+        margin-right: 1.5rem;
+    }
+}
+
+
+@media(max-width: 580px) {
+    .gurantee-p {
+        font-size: 11px !important;
+    }
+
+    .para-p {
+        font-size: 12px !important;
+    }
+
+    .text-sec {
+        width: 98% !important;
+    }
+
+    .hr {
+        width: 12rem;
+        margin-top: 5px;
+    }
+
+    .HeaderContent p {
+        font-size: 0.6rem;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin-top: -5px;
+        font-family: sans-serif;
+        color:
+            rgba(71, 71, 71, 255);
+    }
+
+    .HeaderContent h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        color: #232323;
+    }
+
+    .HeaderContent h2 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        font-size: 0.7rem;
+        font-weight: 900;
+        color: #9b181f;
+    }
+
+    .c-h {
+        width: 140% !important;
+        text-align: center;
+        margin-left: -5rem !important;
+        font-size: 1.5rem !important;
+    }
+
+    .c-h p {
+        margin-left: 6rem;
+        width: 70%;
+    }
+
+    .confidential {
+        display: none;
+    }
+
+    .form-sm-btn {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .form-sm-text {
+        font-size: 1rem !important;
+    }
+
+    .small-inputs {
+        width: 90%;
+    }
+
+    .law-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .law-img {
+        width: 100%;
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+
+    .case-img {
+        width: 60% !important;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+    .box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .box2 h1 {
+        margin-left: 6rem;
+        width: 100%;
+    }
+
+    .box2 p {
+        margin-left: 6rem;
+    }
+
+    .case-h1 {
+        font-size: 1.8rem;
+    }
+
+    .case-p {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (max-width:500px) {
+    .text-sec {
+        width: 19rem !important;
+        margin-left: 4.2rem;
+    }
+}
