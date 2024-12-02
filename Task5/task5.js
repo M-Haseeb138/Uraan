@@ -62,6 +62,7 @@ function findNextNumberHandler() {
     document.getElementById('nextnumberresult').innerText = result;
 }
 
+
 function TransformName() {
     const name = document.getElementById('lowercasename').value;
     if (name) {
@@ -98,12 +99,55 @@ function generateArray() {
         document.getElementById("lastElement").textContent = "";
         return;
     }
-       const array = Array.from({ length: size }, () => Math.floor(Math.random() * 100) + 1);
+    const array = Array.from({ length: size }, () => Math.floor(Math.random() * 100) + 1);
     document.getElementById("generatedArray").textContent = "Generated Array: " + array.join(", ");
     document.getElementById("firstElement").textContent = "First Element: " + array[0];
     document.getElementById("lastElement").textContent = "Last Element: " + array[array.length - 1];
 }
 
+
+function sumofNumbers() {
+    const num1 = document.getElementById('num1').value;
+    const num2 = document.getElementById('num2').value;
+
+    if (num1 == "" || num2 == "") {
+
+        document.getElementById('numResult').value = "NaN";
+    }
+    else {
+
+        const sum = parseInt(num1) + parseInt(num2);
+        if (!isNaN(sum)) {
+            document.getElementById('numResult').value = sum;
+        }
+        else {
+            document.getElementById('numResult').value = "";
+        }
+
+    }
+
+}
+
+
+document.getElementById('num1').addEventListener('input', sumofNumbers);
+document.getElementById('num2').addEventListener('input', sumofNumbers);
+
+
+
+
+
+
+
+
+// <div class="task7">
+//     <h1>Additon of Numbers</h1>
+//     <label for="input1" >Enter the first number:</label>
+//     <input id="num1" type="text" placeholder="Enter first number"><br>
+//     <label for="input2">Enter the second number:</label>
+//     <input id="num2" type="text" placeholder="Enter Second number"><br>
+//     <label id="Resultlabel" for="Result">Result</label>
+//     <input id="numResult" type="text">
+// </div>
 
 
 
