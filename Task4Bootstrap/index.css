@@ -1,9 +1,22 @@
+body{
+    overflow-x: hidden;
+}
 .hr {
     background-color: black;
     padding: 1px;
     width: 53%;
     margin-bottom: 0;
 
+}
+
+.row .Rone 
+{
+    border-bottom: 1px solid;
+}
+
+.box2{
+border-left: 1px solid;
+ border-right: 1px solid;
 }
 
 .navbar {
@@ -410,10 +423,17 @@ button img {
     .btn-footer button {
         margin-right: 1.5rem;
     }
+    .btn1 ,.btn-2{
+        margin-left: 4rem;
+    }
 }
 
 
 @media(max-width: 580px) {
+
+    .row .Rone{
+        border-bottom: none;
+    }
     .gurantee-p {
         font-size: 11px !important;
     }
@@ -529,11 +549,20 @@ button img {
     .case-p {
         font-size: 1.3rem !important;
     }
+    .box2{
+        border-left:none;
+    border-right:none;
+    }
 }
 
 @media (max-width:500px) {
     .text-sec {
         width: 19rem !important;
         margin-left: 4.2rem;
+       
+      
     }
+   
+
+  
 }
