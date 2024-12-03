@@ -139,15 +139,6 @@ document.getElementById('num2').addEventListener('input', sumofNumbers);
 
 
 
-// <div class="task7">
-//     <h1>Additon of Numbers</h1>
-//     <label for="input1" >Enter the first number:</label>
-//     <input id="num1" type="text" placeholder="Enter first number"><br>
-//     <label for="input2">Enter the second number:</label>
-//     <input id="num2" type="text" placeholder="Enter Second number"><br>
-//     <label id="Resultlabel" for="Result">Result</label>
-//     <input id="numResult" type="text">
-// </div>
 
 
 
