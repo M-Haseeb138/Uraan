@@ -75,10 +75,6 @@ function TransformName() {
     else {
         document.getElementById('newname').innerText = 'please Enter the valid name';
     }
-
-
-
-
 }
 
 

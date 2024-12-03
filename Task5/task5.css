@@ -34,51 +34,56 @@
     transform: translate(-32%, -40%);
     padding: 7rem 3rem 1rem 1rem;
 }
-#nametransformer{
+
+#nametransformer {
     margin-left: 72px;
 }
-#lowercasename{
+
+#lowercasename {
     margin-bottom: 22px;
 }
+
 .task5 {
     position: absolute;
-    top: 37%;
+    top: 54%;
     left: 63%;
     transform: translate(-32%, -40%);
-    padding: 7rem 3rem 1rem 1rem;
+    padding: 0rem 3rem 1rem 1rem;
 }
-#weight{
+
+#weight {
     margin-left: 22px;
     margin-bottom: 10px;
 }
 
-#height{
+#height {
     margin-bottom: 10px;
 }
 
 .task6 {
     position: absolute;
-    top: 68%;
+    top: 87%;
     left: 63%;
     transform: translate(-32%, -22%);
-    padding: 7rem 3rem 1rem 1rem;
+    padding: 0rem 3rem 1rem 1rem;
 }
+
 .task7 {
     position: absolute;
-    top: 84%;
+    top: 91%;
     left: 15%;
     transform: translate(-32%, -22%);
-    padding: 7rem 3rem 1rem 1rem;
+    padding: 0rem 3rem 1rem 1rem;
 }
 
-#num1{
+#num1 {
     margin-bottom: 10px;
 }
 
-#num2{
+#num2 {
     margin-bottom: 10px;
 }
 
-#Resultlabel{
+#Resultlabel {
     margin-left: 5px;
 }
